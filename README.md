@@ -1,34 +1,34 @@
-**Модуль не развивается с октября 2014 года.** Пожалуйста, имейте ввиду, что с новыми версиями OpenCart и 1C могут быть проблемы. Сейчас у меня нет планов на его дальнейшее развитие.
+** The module has not been developed since October 2014. ** Please note that there may be problems with newer versions of OpenCart and 1C. Now I have no plans for its further development.
 
 # OpenCart Exchange 1C #
 
- Модуль обмена данными с 1С 8.x в формате CommerceML2 для OpenCart
+ Module for data exchange with 1C 8.x in CommerceML2 format for OpenCart
 
- * Домашняя страница: http://zenwalker.ru/lab/opencart-exchange1c/
- * Видеоинструкция установки: https://www.youtube.com/watch?v=wv_-ve_p1LA
- * Исходные коды: https://github.com/ethernet1/opencart-exchange1c
- * Тема поддержки: http://opencartforum.ru/topic/15471-opencart-exchange-1c/
+ * Home page: http://zenwalker.ru/lab/opencart-exchange1c/
+ * Installation video: https://www.youtube.com/watch?v=wv_-ve_p1LA
+ * Source codes: https://github.com/ethernet1/opencart-exchange1c
+ * Support topic: http://opencartforum.ru/topic/15471-opencart-exchange-1c/
 
-## Возможности ##
+## Opportunities ##
 
- * Выгрузка полной иерархии категорий
- * Выгрузка изображений
- * Выгрузка скидок
- * Выгрузка свойств (в атрибуты)
- * Обмен заказами (односторонний, OpenCart → 1C)
- * Наложение водяных знаков на загружаемые картинки товаров
- * Ручной импорт товаров через форму в админке
- * Автогенерация SEO URL (требуется Deadcow SEO 2.1)
- * Автогенерация SEO URL (путем транслитерации, применяется к товарам, производителям, категориям) (issue #12)
+ * Upload a complete category hierarchy
+ * Upload images
+ * Unloading discounts
+ * Unloading properties (into attributes)
+ * Order exchange (one-way, OpenCart → 1C)
+ * Overlaying watermarks on uploaded product images
+ * Manual import of goods through the form in the admin panel
+ * Auto Generation SEO URL (Deadcow SEO 2.1 required)
+ * SEO URL auto-generation (by transliteration, applies to products, manufacturers, categories) (issue # 12)
 
-## Установка ##
+## Installation ##
 
- Установка модуля ничем не отличается от остальных, но для работы потребуется [vQmod](http://code.google.com/p/vqmod/downloads/list).
+ Installing the module is no different from the rest, but it will require [vQmod] (http://code.google.com/p/vqmod/downloads/list) to work.
 
- 1. Загрузить содержимое директории upload в корень сайта
- 2. Активировать модуль в настройках и задать логин/пароль
- 3. В 1С в качестве адреса выгрузки указать http://%sitename%/export/exchange1c.php
+ 1. Upload the contents of the upload directory to the site root
+ 2. Activate the module in the settings and set the login / password
+ 3. In 1C, specify http: //%sitename%/export/exchange1c.php as the unloading address
 
-## Лицензия ##
+## License ##
 
- Данное программное обеспечение распространяется на условиях [GNU General Public License v3.0](http://www.gnu.org/licenses/gpl.html).
+ This software is distributed under the terms of the [GNU General Public License v3.0] (http://www.gnu.org/licenses/gpl.html). 
